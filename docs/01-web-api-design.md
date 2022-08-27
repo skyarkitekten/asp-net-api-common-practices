@@ -9,12 +9,14 @@ Hypermedia is...
 Resources are...have identifier that is a URI. 
 
 These are generally accpeted conventions and will frustrate consumers of your API if you do follow them.
-- use nouns not verbs:
 
-- :white_check_mark: `/customers`
-- :x: `/getCustomers`
+1. Use nouns not verbs:
+:white_check_mark: `/customers`
+:x: `/getCustomers`
 
-Use plural, not singular:
+2. Pluralize entities:
+:white_check_mark: `/customers`
+:x: `/getCustomers`
 
 Append the identifier for a specific resource
 
