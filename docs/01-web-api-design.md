@@ -11,8 +11,8 @@ Resources are...have identifier that is a URI.
 These are generally accpeted conventions and will frustrate consumers of your API if you do follow them.
 
 1. Use nouns not verbs:
-:white_check_mark: `/customers`
-:x: `/getCustomers`
+    :white_check_mark: `/customers`
+    :x: `/getCustomers`
 
 2. Pluralize entities:
 :white_check_mark: `/customers`
